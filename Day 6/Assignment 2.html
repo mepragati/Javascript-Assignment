@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <script src="scripts/Assignment 2.js"></script>
+    <style>
+        body {
+        background: #C0C0C0;
+        font-family: 'Calibri';
+        margin: 0;
+        }
+        </style>
+</head>
+<body>
+    <table border="0" style="margin: 150px; width: 500px; text-align: center;">
+        <tr>
+            <td colspan="4"><h2>Multiplication Table</h2></td>
+        </tr>
+     
+        <tr>
+            <td width="28%">Enter a Number : </td>
+            <td><input type="number" onchange="printTable(this)"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><span id="mul"></span></td>
+        </tr>
+    </table>
+</body>
+</html>
