@@ -1,0 +1,25 @@
+body
+{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    margin:100px 100px;
+}
+img
+{
+    float: left;
+}
+
+#quotes
+{   
+    padding-top:160px;
+}
+footer
+{   position: absolute;
+    top:95%;
+    left:45%;
+    font-size: 18px;
+    font-weight: 400;
+  
+}
